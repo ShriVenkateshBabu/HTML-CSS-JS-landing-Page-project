@@ -1,0 +1,47 @@
+th,
+tr,
+td {
+    padding: 5px;  
+}
+body{
+
+    position: absolute;
+    left: 12cm;
+    top: 1cm;
+    background-image: url(./2541778.jpg);
+    background-size: 33cm;
+}
+.outertext{
+     color: aliceblue;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: larger;
+     
+    }
+.user{
+    color: antiquewhite;
+}
+.pass{
+    color: antiquewhite;
+}
+.otpsent{
+    color: rgb(254, 254, 254);
+    font-family: system-ui, -apple-system,BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 5.2cm;
+}
+.submit{
+    position: relative;
+    left: 5.5cm ;
+}
+.verifyotp{
+    position: relative;
+    left: 5cm;
+}
+#addressid{
+    color: bisque;
+}
+.phno{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}

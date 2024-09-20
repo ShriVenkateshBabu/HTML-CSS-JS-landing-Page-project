@@ -1,0 +1,74 @@
+c<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+  <link rel="stylesheet" href="./signup.css">  
+  <script src="./reg.js"></script>
+</head>    
+<body class="body">
+  <form name="signup" onsubmit="storeData()"; action="">
+    <table>
+      <tr>
+        <td ><label for="username" class="outertext"><b>UserName</b></label></td>
+        <td><input type="text" name="username" size="20" placeholder="username@gmail.com"onblur="username_validation()"></td>
+        <td><p class="user"></p></td>
+      </tr>
+      <tr>
+        <td><label  for="password" class="outertext"><b>Password</b></label></td>
+        <td><input type="password" name="password" placeholder="*******" size="20" onblur="password_validation()" /></td>
+        <td><p class="pass"></p></td>
+      </tr>
+      <tr>
+        <td><label for="address" class="outertext"><b>Address:</b></label></td>
+        <td><input type="text" name="address" placeholder="Address" onblur="validateAddress()" /></td>
+        <td><p id="addressid"></p></td>
+      </tr>    
+                <td>
+                  <label for="country" class="outertext"><b>Country:</b></label>
+                </td>
+                <td>
+                    <select name="country" onblur="countryselect()">
+                        <option selected="" value="default">(Please select a country)</option>
+                        <option value="AF">Australia</option>
+                        <option value="Canda">Canada</option>
+                        <option value="India">India</option>
+                        <option value="AS">Russia</option>
+                        <option value="AD">USA</option>
+                    </select></td>
+                <td>
+                    <p id="select"></p>
+                </td>
+            </tr>
+      <tr>
+        <td>
+          <label for="phonenumber" class="outertext"><b>Phone Number:</b></label>
+        </td>
+        <td>
+          <input type="number" value="" placeholder="Phonenumber" onblur="Phonenumber()" size="10" name="phonenumber">
+          <p class="phno"></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <label for="otp" class="outertext"><b>OTP</b></label>  
+        </td>
+        <td>
+          <input id="otp" type="number" placeholder="Enter OTP" size="10">  
+        </td>
+        <tr>
+          <td>
+            <input class="Verifyotp" type="button" onclick="verifyOtp()" value="Verify OTP"> 
+           <b> <p class="otpsent"></p></b>
+          </td>
+        </tr>
+      </tr>
+      
+      <tr> 
+        <td>
+          <br><input class="submit" type="submit" value="submit" href="./submitpage.html" target="_blank" ><br>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
